@@ -1,0 +1,26 @@
+# This example is for mad 1 in Lazor (from the assignment handout)
+#   x = no block allowed
+#   o = blocks allowed
+#   A = fixed reflect block
+#   B = fixed opaque block
+#   C = fixed refract block
+
+GRID START
+o o o o
+o o o o
+o o o o
+o o o o
+GRID STOP
+
+# 2 reflect blocks and 1 refract block
+A 2
+C 1
+
+# Laser: x, y, vx, vy
+L 2 7 1 -1
+
+# Points the lasers must pass through
+P 3 0
+P 4 3
+P 2 5
+P 4 7
