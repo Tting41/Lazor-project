@@ -1,0 +1,10 @@
+# Solution for mad_1
+#   o = empty, x = no block allowed
+#   A = reflect, B = opaque, C = refract
+# Solved in 0.0008 s
+GRID START
+o o C o
+o o o A
+A o o o
+o o o o
+GRID STOP
